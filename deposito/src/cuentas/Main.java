@@ -1,12 +1,20 @@
 package cuentas;
-
+/**
+ * @autor Hugo José Góngora Lozano
+ * 
+ * @version v0.1 
+ * @since 03/03/2024
+ *  * 
+ */
+//Método main
 public class Main {
 
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
-
+        //Creamos una instancia de CCuenta e ingresamos los valores
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
+        //Usamos el método estado
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
 
@@ -25,5 +33,8 @@ public class Main {
         } catch (Exception e) {
             System.out.print("Fallo al ingresar");
         }
+        /** @exception Recoge los errores de operación al retirar o ingresar
+         *  @see CCuenta 
+         * **/
 	}
 }
