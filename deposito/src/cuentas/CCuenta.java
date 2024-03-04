@@ -1,6 +1,6 @@
 package cuentas;
 /**
- * @autor Hugo José Góngora Lozano
+ * @author Hugo José Góngora Lozano
  * 
  * @version v0.1 
  * @since 03/03/2024
@@ -12,10 +12,10 @@ public class CCuenta {
     private String cuenta;
     private double saldo;
     private double tipoInterés;
-    /**@param nombre. Es el nombre del cliente.
-     * @param cuenta. Número de cuenta.
-     * @param saldo. Cantidad de dinero en cuenta (euros).
-     * @param tipoInterés. Tipo de interés aplicado en la cuenta
+    /** nombre: Es el nombre del cliente.
+     *  cuenta: Número de cuenta.
+     *  saldo: Cantidad de dinero en cuenta (euros).
+     *  tipoInterés: Tipo de interés aplicado en la cuenta
      * */
 
 	public String getNombre() {  
